@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family:Arial,sans-serif;
+    line-height:1.6;
+    margin:0;
+    padding:0;
+    background-color:white;
+    color:rgb(49, 49, 49);
+}
+
+header {
+    background-color:blueviolet;
+    color:white;
+    padding:1rem 0;
+    text-align:center;
+}
+
+h1, h2 {
+    color:#333;
+}
+
+main {
+    padding:1rem 2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+section {
+    margin-bottom:2rem;
+}
+
+p {
+    margin:0.5rem 0;
+}
+
+mark {
+    background-color:yellow;
+    font-weight:bold;
+}
+
+/* Table Styles */
+table {
+    width:100%;
+    border-collapse:collapse;
+    margin:1rem 0;
+}
+
+table,th,td {
+    border:1px solid rgb(202, 202, 202);
+}
+
+th, td {
+    padding:0.5rem;
+    text-align:left;
+}
+
+th {
+    background-color:rgb(221, 221, 221);
+}
